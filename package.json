@@ -1,0 +1,25 @@
+{
+  "name": "jimmy",
+  "displayName": "jimmy",
+  "description": "jimmy lang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jimmy",
+      "aliases": ["jimmy", "jimmy"],
+      "extensions": [".jimmy"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jimmy",
+      "scopeName": "source.jimmy",
+      "path": "./syntaxes/jimmy.tmLanguage.json"
+    }]
+  }
+}
